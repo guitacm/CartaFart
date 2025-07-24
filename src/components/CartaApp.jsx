@@ -34,16 +34,17 @@ const CartaApp = () => {
       skipEmptyLines: true,
       complete: (result) => {
         const platsImportats = result.data.map(row => ({
-          categoria: row.Categoria || '',
-          nom: row.Nom || '',
-          descripcio: row.Descripcio || '',
-          preu: row.Preu || '',
+          categoria: row.Categoria?.trim().toLowerCase() || '',
+          nom: row.Nom?.trim() || '',
+          descripcio: row.Descripcio?.trim() || '',
+          preu: parseFloat(row.Preu).toFixed(2),
           visible: row.Visible?.toString().toLowerCase().trim() === 'sí'
         }));
         setPlats(platsImportats);
       }
     });
   };
+
 
   return (
     <div className="carta-container">
