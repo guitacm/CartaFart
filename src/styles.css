@@ -1,0 +1,175 @@
+/* Contenidor general */
+body {
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+  font-size: 11.5pt;
+}
+
+.carta-container {
+  font-family: 'Montserrat', sans-serif;
+  padding: 1rem;
+}
+
+/* Botons */
+button {
+  margin-right: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.no-print {
+  display: block;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}
+
+/* Vista prèvia A4 simulada */
+.preview-mode {
+  width: 793px;
+  height: 1122px;
+  padding: 2cm;
+  font-size: 11pt;
+  background: white;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Marc interior de marges */
+.preview-mode::before {
+  content: "";
+  position: absolute;
+  top: 0cm;
+  bottom: 0cm;
+  left: 0cm;
+  right: 0cm;
+  border: 1px dashed rgba(0, 0, 0, 0.1);
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Logotip centrat i fora de columnes */
+.logo {
+  display: block;
+  margin: 0 auto 2rem;
+  max-width: 200px;
+  height: auto;
+}
+
+/* Contenidor de dues columnes fixes */
+.columnes-carta {
+  display: flex;
+  width: 100%;
+  gap: 2rem;
+}
+
+/* Cada columna */
+.columna {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+/* Bloc de categoria */
+.categoria-bloc {
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+/* Títol de categoria */
+.categoria-titol {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+
+/* Plats */
+.plats-grid {
+  display: block;
+}
+
+.plat {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.plat-nom {
+  flex: 1;
+  font-weight: 500;
+  word-break: break-word;
+}
+
+.plat-preu {
+  white-space: nowrap;
+  font-weight: 400;
+  min-width: 3rem;
+  text-align: right;
+}
+
+/* Impressió */
+@media print {
+
+  /* Només mostrar la carta, ocultar la resta */
+  body * {
+    visibility: hidden;
+  }
+
+  .carta-imprimible,
+  .carta-imprimible * {
+    visibility: visible;
+  }
+
+  .carta-imprimible {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  @page {
+    size: A4 portrait;
+    margin: 0cm;
+  }
+
+  .columnes-carta {
+    display: flex;
+    gap: 3rem;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  .columna,
+  .categoria-bloc {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  body {
+    font-size: 11pt;
+    margin: 0;
+    padding: 0;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}
