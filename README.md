@@ -20,6 +20,6 @@ Aquest projecte es desplega automàticament a [Netlify](https://netlify.com) via
 npm install
 npm run dev
 
-## ✍️ Autor
+## Autor
 
-Desenvolupat per [Olga Garcia](https://github.com/guitacm) pel restaurant Fart de Sort.
+Desenvolupat per [Olga Cuevas i Melis] (https://github.com/guitacm) pel restaurant Fart de Sort.
