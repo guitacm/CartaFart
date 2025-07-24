@@ -2,7 +2,7 @@
 
 Aplicació en React per generar i imprimir la carta del restaurant Fart de Sort (Pallars Sobirà, Lleida).
 
-## Autor
+## ✏️ Autor
 
 Desenvolupat per [Olga Cuevas i Melis] (https://github.com/guitacm) pel restaurant Fart de Sort.
 
