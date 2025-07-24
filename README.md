@@ -1,12 +1,21 @@
-# React + Vite
+# Carta Fart 🍽️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicació en React per generar i imprimir la carta del restaurant Fart de Sort (Pallars Sobirà, Lleida).
 
-Currently, two official plugins are available:
+## 🔧 Funcionalitats
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Importació de plats des d’un fitxer `.csv`
+- Edició i afegit manual de plats
+- Vista prèvia en dues columnes, estilitzada per imprimir en A4
+- Impressió neta només de la carta
+- Responsive i fàcil d’utilitzar
 
-## Expanding the ESLint configuration
+## 🚀 Deploy
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Aquest projecte es desplega automàticament a [Netlify](https://netlify.com) via GitHub.
+
+## 📦 Com executar en local
+
+```bash
+npm install
+npm run dev
