@@ -7,6 +7,7 @@ import { useEffect } from 'react';
 
 const CartaApp = () => {
   const [plats, setPlats] = useState([]);
+  const [missatge, setMissatge] = useState('');
   const [vistaPrevia, setVistaPrevia] = useState(true);
 
   useEffect(() => {
@@ -18,12 +19,13 @@ const CartaApp = () => {
           skipEmptyLines: true,
           complete: (result) => {
             const platsImportats = result.data.map(row => ({
-              categoria: row.Categoria || '',
-              nom: row.Nom || '',
-              preu: row.Preu || '',
+              categoria: row.Categoria?.trim().toLowerCase() || '',
+              nom: row.Nom?.trim() || '',
+              preu: parseFloat(row.Preu).toFixed(2),
               visible: row.Visible?.toString().toLowerCase().trim() === 'sí'
             }));
             setPlats(platsImportats);
+            setVistaPrevia(true);
           }
         });
       });
@@ -32,7 +34,7 @@ const CartaApp = () => {
   const afegirPlat = () => {
     setPlats([
       ...plats,
-      { categoria: '', nom: '', descripcio: '', preu: '', visible: true }
+      { categoria: '', nom: '', preu: '', visible: true }
     ]);
   };
 
@@ -60,21 +62,49 @@ const CartaApp = () => {
           visible: row.Visible?.toString().toLowerCase().trim() === 'sí'
         }));
         setPlats(platsImportats);
+        setVistaPrevia(true);
       }
     });
   };
 
+  const descarregarCSV = () => {
+    const csvData = plats
+      .filter(plat => plat.visible)
+      .map(({ categoria, nom, preu, visible }) => ({
+        Categoria: categoria,
+        Nom: nom,
+        Preu: parseFloat(preu).toFixed(2),
+        Visible: visible ? 'sí' : 'no'
+      }));
+
+    const csv = Papa.unparse(csvData);
+    const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+    const url = URL.createObjectURL(blob);
+
+    // Obtenim la data d’avui en format YYYY-MM-DD
+    const avui = new Date();
+    const dataFormatada = avui.toISOString().split('T')[0]; // exemple: 2025-07-24
+    const nomFitxer = `carta_fart_${dataFormatada}.csv`;
+
+    const link = document.createElement('a');
+    link.href = url;
+    link.setAttribute('download', nomFitxer);
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+
+    setMissatge(`✅ CSV "${nomFitxer}" descarregat correctament!`);
+    setTimeout(() => setMissatge(''), 3000);
+  };
 
   return (
     <div className="carta-container">
       <h1>La nostra carta</h1>
 
       <div style={{ marginBottom: '1rem' }}>
-        <label><strong>Importar des d’un CSV:</strong></label>{' '}
+        <label><strong>Importar des d'un CSV:</strong></label>{' '}
         <input type="file" accept=".csv" onChange={importarCSV} />
       </div>
-
-      <button className="carta-boto" onClick={afegirPlat}>Afegir plat</button>
 
       {plats.map((plat, index) => (
         <CartaForm
@@ -85,13 +115,24 @@ const CartaApp = () => {
           eliminarPlat={eliminarPlat}
         />
       ))}
+
+      <button className="carta-boto" onClick={afegirPlat}>Afegir plat</button>
+
       <button className="carta-boto" onClick={() => setVistaPrevia(!vistaPrevia)}>
         {vistaPrevia ? 'Sortir de vista prèvia' : 'Vista prèvia de la carta'}
       </button>
 
-      <CartaPreview plats={plats.filter(p => p.visible)} vistaPrevia={vistaPrevia} />
+      {vistaPrevia && (
+        <CartaPreview plats={plats.filter(p => p.visible)} vistaPrevia={vistaPrevia} />
+      )}
 
       <button className="carta-boto" onClick={() => window.print()}>Imprimir carta</button>
+
+      <button className="carta-boto" onClick={descarregarCSV}>
+        Descarregar carta com CSV
+      </button>
+
+      {missatge && <p style={{ color: 'green', marginTop: '1rem' }}>{missatge}</p>}
     </div>
   );
 };
