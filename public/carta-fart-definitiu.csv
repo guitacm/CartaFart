@@ -8,13 +8,13 @@ bocata fart,Hamburguesa Fart Angus,9.00,sí
 bocata fart,Falafel amb salsa d'encurtits,NaN,sí
 bocata fart,Planxat de buti amb la nostre salsa,8.00,sí
 bocata fart,Planxat de pollsatre amb brie,NaN,sí
-rollitos,"Porc rostit, formatge, bacon i ceba",NaN,sí
+rollitos,Porc rostit, formatge, bacon i ceba,NaN,sí
 rollitos,4 formatges amb ceba i melmelada,NaN,sí
-rollitos,Wanton porc i gambes,5.00,sí
+from asia con love,Wanton porc i gambes,5.00,sí
 from asia con love,Brocheta satay (2 unitats),4.00,sí
 from asia con love,Brocheta teriyaki (2 unitats),NaN,sí
-from asia con love,"Cruixent de pollastre, verdures, arros i salsa curry",NaN,sí
-from asia con love,"Pollsatre amb cacahuets, verdures i arròs",NaN,sí
+from asia con love,Cruixent de pollastre, verdures, arros i salsa curry,NaN,sí
+from asia con love,Pollsatre amb cacahuets, verdures i arròs,NaN,sí
 from asia con love,Arròs fart,NaN,sí
 suggeriments,Camembert fart,NaN,sí
 clàssics,Gazpacho clàssic,5.00,sí
@@ -24,13 +24,12 @@ postres,Got de quatre xocolates,NaN,sí
 postres,Postre Fart,4.00,sí
 postres,Brownie,NaN,sí
 begudes,Aigua de gerra,0.00,sí
-begudes,Vermouth,NaN,sí
-cafes,Cafe,NaN,sí
-cafes,Cigaló,NaN,sí
-vins copa,Nu,NaN,sí
-vins copa,Salvavides,NaN,sí
+begudes,Vermouth,2.50,sí
+cafes,Cafe,1.50,sí
+cafes,Cigaló,2.00,sí
+vins copa,Copa Vi,2.50,sí
 from asia con love,Dahi Puri,7.00,sí
-suggeriments,Croissant planxat,7.00,sí
+bocata fart,Croissant planxat,7.00,sí
 clàssics,Gazpacho meló,5.00,sí
 clàssics,Salmorejo,5.00,sí
 clàssics,Crema freda de pèsols,5.00,sí
@@ -58,3 +57,4 @@ begudes,Lupia 33 cl,2.00,sí
 birra,B-Lemon 33 cl,2.00,sí
 birra,Cervesa barril Estrella Galicia,2.00,sí
 birra,Barril 1906,2.00,sí
+begudes,Refresc 33 cl,2.00,sí
