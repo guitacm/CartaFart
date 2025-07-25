@@ -10,7 +10,8 @@ const categoriesDisponibles = [
   'postres',
   'birra',
   'begudes',
-  'vins copa'
+  'vins copa',
+  'cafes'
 ];
 
 const formatCategoria = (cat) => {
