@@ -9,8 +9,8 @@ const CartaPreview = ({ plats }) => {
   }, {});
 
   // Ordre fix per cada columna
-  const categoriesCol1 = ['aperitius','clàssics', 'bocata fart', 'from asia con love', 'rollitos', 'suggeriments', 'postres'];
-  const categoriesCol2 = ['birra', 'begudes', 'vins copa','cafes'];
+  const categoriesCol1 = ['aperitius', 'clàssics', 'bocata fart', 'from asia con love', 'rollitos', 'postres'];
+  const categoriesCol2 = ['suggeriments','birra', 'begudes', 'vins copa','cafes'];
 
   const renderCategories = (categories) =>
     categories
