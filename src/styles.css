@@ -229,7 +229,7 @@ button {
 
   @page {
     size: A4 portrait;
-    margin: 0cm;
+    margin: 1cm;
   }
 
   .columnes-carta {
