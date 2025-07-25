@@ -7,7 +7,7 @@ body {
 
 .carta-container {
   font-family: 'Montserrat', sans-serif;
-  padding: 1rem;
+  padding: 0 1rem;
   max-width: 1000px;
   margin: 0 auto;
 }
