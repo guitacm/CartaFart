@@ -5,7 +5,7 @@ aperitius,Formatge,4.00,sí
 aperitius,Xoriço sidra,4.00,sí
 aperitius,Panxeta,4.00,sí
 clàssics,Patates braves,6.00,sí
-clàssics,Truita patates amb pa tomàquet,6.00,sí
+clàssics,Truita patates amb pa tomàata,6.00,sí
 clàssics,Croqueta fart de pollastre (6 ud),9.00,no
 clàssics,Ensaladilla fúcsia,6.00,sí
 clàssics,Torreznos de cantabria,NaN,no
@@ -18,19 +18,19 @@ clàssics,Mandonguilles Fart (3 un),7.00,sí
 bocata fart,Hamburguesa Fart Angus,9.00,sí
 bocata fart,Croissant planxat,7.00,sí
 bocata fart,Falafel amb salsa d'encurtits,NaN,no
-bocata fart,Planxat de buti amb la nostre salsa,8.00,sí
-bocata fart,Planxat de pollsatre amb brie,NaN,no
+bocata fart,Planxat de buti amb la nostra salsa,8.00,sí
+bocata fart,Planxat de pollastre amb brie,NaN,no
 rollitos,Porc rostit, formatge, bacon i ceba,NaN,no
-rollitos,4 formatges amb ceba i melmelada,NaN,no
+rollitos,4 Formatges amb ceba i melmelada,NaN,no
 from asia con love,Wanton porc i gambes,5.00,sí
 from asia con love,Brocheta satay (2 unitats),4.00,sí
 from asia con love,Dahi Puri,7.00,sí
 from asia con love,Brocheta teriyaki (2 unitats),NaN,no
-from asia con love,Cruixent de pollastre, verdures, arros i salsa curry,NaN,no
+from asia con love,Cruixent de pollastre, verdures, arròs i salsa curry,NaN,no
 from asia con love,Pollsatre amb cacahuets, verdures i arròs,NaN,no
-from asia con love,Arròs fart,NaN,no
-suggeriments,Camembert fart,NaN,no
-postres,Pastís formatge amb gerds d'enviny,5.00,sí
+from asia con love,Arròs Fart,NaN,no
+suggeriments,Camembert Fart,NaN,no
+postres,Pastís de formatge amb gerds d'Enviny,5.00,sí
 postres,Got de lemon curd,NaN,no
 postres,Got de quatre xocolates,NaN,no
 postres,Postre Fart,4.00,sí
@@ -38,14 +38,14 @@ postres,Brownie,NaN,no
 begudes,Vermouth,2.50,sí
 begudes,Refresc 33 cl,2.00,sí
 begudes,Aigua Cabreiroa 50 cl,1.50,sí
-begudes,Aquarios llimona 33 cl,2.00,no
+begudes,Aquarius llimona 33 cl,2.00,no
 begudes,Nestea llimona 33 cl,2.00,no
 begudes,Auara Pinya o Mango 20 cl,2.00,no
 begudes,Bitter Kas 20 cl,2.00,no
 begudes,Vichy Catalàn 30 cl,2.00,no
 begudes,CocaCola Original 237 ml,2.00,no
 begudes,CocaCola Zero 237 ml,2.00,no
-begudes,Schewepps Zero Llimona o Taronja 20 cl,2.00,no
+begudes,Schweppes Zero Llimona o Taronja 20 cl,2.00,no
 birra,Estrella Galicia 33 cl,2.00,sí
 birra,Estrella Galicia 0,0 33 cl,2.00,sí
 birra,Estrella Galicia Gluten Free 33 cl,2.00,sí
@@ -55,5 +55,5 @@ birra,B-Lemon 33 cl,2.00,sí
 birra,Cervesa barril Estrella Galicia,2.00,sí
 birra,Barril 1906,2.50,sí
 vins copa,Copa Vi,2.50,sí
-cafes,Cafe,1.50,sí
+cafes,Cafè,1.50,sí
 cafes,Cigaló,2.00,sí
