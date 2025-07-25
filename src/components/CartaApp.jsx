@@ -84,7 +84,7 @@ const CartaApp = () => {
     // Obtenim la data d’avui en format YYYY-MM-DD
     const avui = new Date();
     const dataFormatada = avui.toISOString().split('T')[0]; // exemple: 2025-07-24
-    const nomFitxer = `carta_fart_${dataFormatada}.csv`;
+    const nomFitxer = `carta-fart-${dataFormatada}.csv`;
 
     const link = document.createElement('a');
     link.href = url;
