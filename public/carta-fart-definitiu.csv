@@ -1,28 +1,28 @@
 Categoria,Nom,Preu,Visible
 clàssics,Truita patates amb pa tomàquet,6.00,sí
-clàssics,Croqueta fart de pollastre (6 ud),9.00,sí
+clàssics,Croqueta fart de pollastre (6 ud),9.00,no
 clàssics,Ensaladilla fúcsia,6.00,sí
 clàssics,Patates braves,6.00,sí
-clàssics,Torreznos de cantabria,NaN,sí
+clàssics,Torreznos de cantabria,NaN,no
 bocata fart,Hamburguesa Fart Angus,9.00,sí
-bocata fart,Falafel amb salsa d'encurtits,NaN,sí
+bocata fart,Falafel amb salsa d'encurtits,NaN,no
 bocata fart,Planxat de buti amb la nostre salsa,8.00,sí
-bocata fart,Planxat de pollsatre amb brie,NaN,sí
-rollitos,Porc rostit, formatge, bacon i ceba,NaN,sí
-rollitos,4 formatges amb ceba i melmelada,NaN,sí
+bocata fart,Planxat de pollsatre amb brie,NaN,no
+rollitos,Porc rostit, formatge, bacon i ceba,NaN,no
+rollitos,4 formatges amb ceba i melmelada,NaN,no
 from asia con love,Wanton porc i gambes,5.00,sí
 from asia con love,Brocheta satay (2 unitats),4.00,sí
-from asia con love,Brocheta teriyaki (2 unitats),NaN,sí
-from asia con love,Cruixent de pollastre, verdures, arros i salsa curry,NaN,sí
-from asia con love,Pollsatre amb cacahuets, verdures i arròs,NaN,sí
-from asia con love,Arròs fart,NaN,sí
-suggeriments,Camembert fart,NaN,sí
+from asia con love,Brocheta teriyaki (2 unitats),NaN,no
+from asia con love,Cruixent de pollastre, verdures, arros i salsa curry,NaN,no
+from asia con love,Pollsatre amb cacahuets, verdures i arròs,NaN,no
+from asia con love,Arròs fart,NaN,no
+suggeriments,Camembert fart,NaN,no
 clàssics,Gazpacho clàssic,5.00,sí
 postres,Pastis formatge amb gerds d'enviny,5.00,sí
-postres,Got de lemon curd,NaN,sí
-postres,Got de quatre xocolates,NaN,sí
+postres,Got de lemon curd,NaN,no
+postres,Got de quatre xocolates,NaN,no
 postres,Postre Fart,4.00,sí
-postres,Brownie,NaN,sí
+postres,Brownie,NaN,no
 begudes,Aigua de gerra,0.00,sí
 begudes,Vermouth,2.50,sí
 cafes,Cafe,1.50,sí
@@ -40,20 +40,20 @@ aperitiu,Olives,4.00,sí
 aperitiu,Formatge,4.00,sí
 aperitiu,Xoriço sidra,4.00,sí
 aperitiu,Panxeta,4.00,sí
-begudes,Cabreiroa 50 cl,1.50,sí
-begudes,Aquarios llimona 33 cl,2.00,sí
-begudes,Nestea llimona 33 cl,2.00,sí
-begudes,Auara Pinya o Mango 20 cl,2.00,sí
-begudes,Bitter Kas 20 cl,2.00,sí
-begudes,Vichy Catalàn 30 cl,2.00,sí
-begudes,CocaCola Original 237 ml,2.00,sí
-begudes,CocaCola Zero 237 ml,2.00,sí
-begudes,Schewepps Zero Llimona o Taronja 20 cl,2.00,sí
+begudes,Aigua Cabreiroa 50 cl,1.50,sí
+begudes,Aquarios llimona 33 cl,2.00,no
+begudes,Nestea llimona 33 cl,2.00,no
+begudes,Auara Pinya o Mango 20 cl,2.00,no
+begudes,Bitter Kas 20 cl,2.00,no
+begudes,Vichy Catalàn 30 cl,2.00,no
+begudes,CocaCola Original 237 ml,2.00,no
+begudes,CocaCola Zero 237 ml,2.00,no
+begudes,Schewepps Zero Llimona o Taronja 20 cl,2.00,no
 birra,Estrella Galicia 33 cl,2.00,sí
-birra,"Estrella Galicia 0,0 33 cl",2.00,sí
+birra,Estrella Galicia 0,0 33 cl,2.00,sí
 birra,Estrella Galicia Gluten Free 33 cl,2.00,sí
 birra,1906 33 cl,2.00,sí
-begudes,Lupia 33 cl,2.00,sí
+birra,Lupia 33 cl,2.00,sí
 birra,B-Lemon 33 cl,2.00,sí
 birra,Cervesa barril Estrella Galicia,2.00,sí
 birra,Barril 1906,2.00,sí
