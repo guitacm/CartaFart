@@ -1,6 +1,7 @@
 import React from 'react';
 
 const categoriesDisponibles = [
+  'aperitius',
   'clàssics',
   'bocata fart',
   'from asia con love',
