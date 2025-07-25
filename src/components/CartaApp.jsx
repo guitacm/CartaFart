@@ -11,7 +11,7 @@ const CartaApp = () => {
   const [vistaPrevia, setVistaPrevia] = useState(true);
 
   useEffect(() => {
-    fetch('/carta_fart_definitiu.csv')
+    fetch('/carta-fart-definitiu.csv')
       .then(response => response.text())
       .then(text => {
         Papa.parse(text, {
