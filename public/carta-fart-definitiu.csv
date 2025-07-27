@@ -16,18 +16,18 @@ clàssics,Crema freda de pèsols,5.00,sí
 clàssics,Sopa freda remolatxa,5.00,sí
 clàssics,Mandonguilles Fart (3 un),7.00,sí
 bocata fart,Hamburguesa Fart Angus,9.00,sí
-bocata fart,Croissant planxat amb formatge de cabra, poma caramelitzada i nous,7.00,sí
+bocata fart,"Croissant planxat amb formatge de cabra, poma caramelitzada i nous",7.00,si
 bocata fart,Falafel amb salsa d'encurtits,NaN,no
 bocata fart,Planxat de buti amb la nostra salsa,8.00,sí
 bocata fart,Planxat de pollastre amb brie,NaN,no
-rollitos,Porc rostit, formatge, bacon i ceba,NaN,no
+rollitos,"Porc rostit amb formatge, bacon i ceba",NaN,no
 rollitos,4 Formatges amb ceba i melmelada,NaN,no
 from asia con love,Wanton porc i gambes,5.00,sí
 from asia con love,Brocheta satay (2 unitats),4.00,sí
 from asia con love,Dahi Puri,7.00,sí
 from asia con love,Brocheta teriyaki (2 unitats),NaN,no
-from asia con love,Cruixent de pollastre, verdures, arròs i salsa curry,NaN,no
-from asia con love,Pollastre amb cacahuets, verdures i arròs,NaN,no
+from asia con love,"Cruixent de pollastre, verdures, arròs i salsa curry",Nan,no
+from asia con love,"Pollastre amb cacahuets, verdures i arròs",Nan,no
 from asia con love,Arròs Fart,NaN,no
 suggeriments,Camembert Fart,NaN,no
 postres,Pastís de formatge amb gerds d'Enviny,5.00,sí
@@ -47,7 +47,7 @@ begudes,CocaCola Original 237 ml,2.00,no
 begudes,CocaCola Zero 237 ml,2.00,no
 begudes,Schweppes Zero Llimona o Taronja 20 cl,2.00,no
 birra,Estrella Galicia 33 cl,2.00,sí
-birra,Estrella Galicia 0,0 33 cl,2.00,sí
+birra,"Estrella Galicia 0,0 33cl",2.,si
 birra,Estrella Galicia Gluten Free 33 cl,2.00,sí
 birra,1906 33 cl,2.50,sí
 birra,Lupia 33 cl,2.00,sí
