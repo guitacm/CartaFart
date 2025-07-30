@@ -231,6 +231,11 @@ button {
     box-shadow: none;
   }
 
+  .no-print-preview {
+    box-shadow: none;
+    margin: 0;
+  }
+
   .carta-container {
     padding: 0;
     max-width: 100%;
