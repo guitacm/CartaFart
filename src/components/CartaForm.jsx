@@ -11,6 +11,9 @@ const categoriesDisponibles = [
   'birra',
   'begudes',
   'vins copa',
+  'vins negres',
+  'vins blancs',
+  'altres vins',
   'cafes'
 ];
 
