@@ -110,7 +110,7 @@ const CartaApp = () => {
 
   return (
     <div className="carta-container no-print">
-      <h1>La nostra carta</h1>
+      <h1 className="no-print">La nostra carta</h1>
 
       <div style={{ marginBottom: '1rem' }}>
         <label><strong>Importar des d'un CSV:</strong></label>{' '}
