@@ -109,7 +109,7 @@ const CartaApp = () => {
   };
 
   return (
-    <div className="carta-container .no-print">
+    <div className="carta-container no-print">
       <h1>La nostra carta</h1>
 
       <div style={{ marginBottom: '1rem' }}>
