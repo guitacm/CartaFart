@@ -40,7 +40,7 @@ const CartaPreview = ({ plats }) => {
   return (
     <>
       {/* PRIMERA PÀGINA */}
-      <div className="carta-imprimible preview-mode">
+      <div className="carta-imprimible preview-mode no-print-preview">
         <img src="/logofart.jpg" alt="Logotip del restaurant" className="logo" />
         <div className="columnes-carta">
           <div className="columna">{renderCategories(categoriesCol1)}</div>
@@ -49,7 +49,7 @@ const CartaPreview = ({ plats }) => {
       </div>
 
       {/* SEGONA PÀGINA */}
-      <div className="carta-imprimible preview-mode">
+      <div className="carta-imprimible preview-mode no-print-preview">
         <img src="/logofart.jpg" alt="Logotip del restaurant" className="logo" />
         <div className="columnes-carta">
           <div className="columna">{renderCategories(categoriesCol3)}</div>
