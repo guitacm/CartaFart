@@ -109,10 +109,10 @@ const CartaApp = () => {
   };
 
   return (
-    <div className="carta-container no-print">
+    <div className="carta-container">
       <h1 className="no-print">La nostra carta</h1>
 
-      <div style={{ marginBottom: '1rem' }}>
+      <div className="no-print" style={{ marginBottom: '1rem' }}>
         <label><strong>Importar des d'un CSV:</strong></label>{' '}
         <input type="file" accept=".csv" onChange={importarCSV} />
       </div>
@@ -127,9 +127,9 @@ const CartaApp = () => {
         />
       ))}
 
-      <button className="carta-boto" onClick={afegirPlat}>Afegir plat</button>
+      <button className="carta-boto no-print" onClick={afegirPlat}>Afegir plat</button>
 
-      <button className="carta-boto" onClick={() => setVistaPrevia(!vistaPrevia)}>
+      <button className="carta-boto no-print" onClick={() => setVistaPrevia(!vistaPrevia)}>
         {vistaPrevia ? 'Sortir de vista prèvia' : 'Vista prèvia de la carta'}
       </button>
 
@@ -137,15 +137,15 @@ const CartaApp = () => {
         <CartaPreview plats={plats.filter(p => p.visible)} />
       )}
 
-      <button className="carta-boto" onClick={() => window.print()}>
+      <button className="carta-boto no-print" onClick={() => window.print()}>
         Imprimir carta
       </button>
 
-      <button className="carta-boto" onClick={descarregarCSV}>
+      <button className="carta-boto no-print" onClick={descarregarCSV}>
         Descarregar carta com CSV
       </button>
 
-      <button className="carta-boto" onClick={() => {
+      <button className="carta-boto no-print" onClick={() => {
         localStorage.removeItem('cartaFartPlats');
         window.location.reload();
       }}>
