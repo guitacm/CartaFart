@@ -219,10 +219,6 @@ button {
     print-color-adjust: exact;
   }
 
-  .no-print {
-    display: none !important;
-  }
-
    .preview-mode {
     width: auto;
   height: auto;
