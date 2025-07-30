@@ -239,7 +239,11 @@ box-sizing: border-box;
   .carta-imprimible:last-of-type {
     page-break-after: auto;
   }
-  
+
+  img.logo {
+    max-height: 100px;
+    object-fit: contain;
+  }
 
   @page {
     size: A4 portrait;
