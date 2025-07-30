@@ -224,11 +224,15 @@ button {
   }
 
    .preview-mode {
-    all: unset;
-    width: 100%;
-    padding: 0;
-    background: white;
-    box-shadow: none;
+    width: auto;
+  height: auto;
+  padding: 1cm;
+  background: white;
+  box-shadow: none;
+  margin: 0 auto;
+  font-size: 11pt;
+  font-family: 'Montserrat', sans-serif;
+  display: block;
   }
 
   .no-print-preview {
