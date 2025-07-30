@@ -36,7 +36,7 @@ const CartaPreview = ({ plats }) => {
           </div>
         </div>
       ));
-console.log('Renderitzant CartaPreview:', plats);
+
   return (
     <>
       {/* PRIMERA PÀGINA */}
