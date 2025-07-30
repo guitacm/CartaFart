@@ -45,6 +45,13 @@ body {
   min-width: 300px;
 }
 
+.plat-descripcio {
+  font-size: 0.85rem;
+  color: #555;
+  margin-top: 0.1rem;
+  line-height: 1.2;
+}
+
 /* Preu (molt estret) */
 .carta-form-linea input[type="number"] {
   flex: 0 0 90px;

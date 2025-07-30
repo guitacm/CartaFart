@@ -60,6 +60,14 @@ const CartaForm = ({ index, plat, actualitzarPlat, eliminarPlat }) => {
       </div>
 
       <input
+        type="text"
+        placeholder="Descripció"
+        value={plat.descripcio}
+        onChange={(e) => actualitzarPlat(index, 'descripcio', e.target.value)}
+        style={{ flex: 2, minWidth: '200px' }}
+      />
+
+      <input
         type="number"
         step="0.01"
         placeholder="Preu"

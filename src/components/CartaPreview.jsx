@@ -10,7 +10,7 @@ const CartaPreview = ({ plats }) => {
 
   // Ordre fix per cada columna
   const categoriesCol1 = ['aperitius', 'clàssics', 'bocata fart', 'from asia con love', 'rollitos', 'postres'];
-  const categoriesCol2 = ['suggeriments','birra', 'begudes', 'vins copa','cafes'];
+  const categoriesCol2 = ['suggeriments', 'birra', 'begudes', 'vins copa', 'cafes'];
 
   const renderCategories = (categories) =>
     categories
@@ -21,7 +21,12 @@ const CartaPreview = ({ plats }) => {
           <div className="plats-grid">
             {platsPerCategoria[categoria].map((plat, index) => (
               <div className="plat" key={index}>
-                <span className="plat-nom">{plat.nom}</span>
+                <div className="plat-nom">
+                  <strong>{plat.nom}</strong>
+                  {plat.descripcio && (
+                    <div className="plat-descripcio">{plat.descripcio}</div>
+                  )}
+                </div>
                 <span className="plat-preu">
                   {parseFloat(plat.preu).toFixed(2)} €
                 </span>
