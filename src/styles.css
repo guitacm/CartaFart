@@ -210,62 +210,50 @@ button {
 
 /* Impressió */
 @media print {
-
-  /* Només mostrar la carta, ocultar la resta */
-  body * {
-    visibility: hidden;
+  body {
+    margin: 0;
+    padding: 0;
+    font-size: 11pt;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
   }
 
-    .no-print {
+  .no-print {
     display: none !important;
   }
 
-  .carta-imprimible,
-  .carta-imprimible * {
-    visibility: visible;
+  .carta-container {
+    padding: 0;
+    max-width: 100%;
   }
 
   .carta-imprimible {
     page-break-after: always;
     width: 100%;
-    overflow: visible;
     box-sizing: border-box;
-    page-break-inside: avoid;
-    break-inside: avoid;
+    padding: 1cm;
   }
 
   .carta-imprimible:last-of-type {
     page-break-after: auto;
   }
 
-  img.logo {
-    max-height: 100px;
-    object-fit: contain;
-  }
-
-  @page {
-    size: A4 portrait;
-    margin: 1cm;
-  }
-
   .columnes-carta {
     display: flex;
-    gap: 3rem;
-    page-break-inside: avoid;
+    gap: 2rem;
     break-inside: avoid;
   }
 
   .columna,
   .categoria-bloc {
-    page-break-inside: avoid;
     break-inside: avoid;
+    page-break-inside: avoid;
   }
 
-  body {
-    font-size: 11pt;
-    margin: 0;
-    padding: 0;
-    -webkit-print-color-adjust: exact;
-    print-color-adjust: exact;
+  .logo {
+    max-width: 200px;
+    margin: 0 auto 1rem;
+    display: block;
   }
 }
