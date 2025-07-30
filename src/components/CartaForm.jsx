@@ -26,7 +26,7 @@ const formatCategoria = (cat) => {
 
 const CartaForm = ({ index, plat, actualitzarPlat, eliminarPlat }) => {
   return (
-    <div className="carta-form-linea">
+    <div className="carta-form-linea no-print">
       <label className="visible-checkbox">
         <input
           type="checkbox"
