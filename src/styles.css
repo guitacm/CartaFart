@@ -221,14 +221,14 @@ button {
 
    .preview-mode {
     width: auto;
-  height: auto;
-  padding: 1cm;
-  background: white;
-  box-shadow: none;
-  margin: 0 auto;
-  font-size: 11pt;
-  font-family: 'Montserrat', sans-serif;
-  display: block;
+    height: auto;
+    padding: 1cm;
+    background: white;
+    box-shadow: none;
+    margin: 0 auto;
+    font-size: 11pt;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
   }
   
   .no-print {
