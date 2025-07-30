@@ -109,12 +109,6 @@ button {
   display: block;
 }
 
-@media print {
-  .no-print {
-    display: none !important;
-  }
-}
-
 /* Vista prèvia A4 simulada */
 .preview-mode {
   width: 793px;
@@ -220,6 +214,10 @@ button {
   /* Només mostrar la carta, ocultar la resta */
   body * {
     visibility: hidden;
+  }
+
+    .no-print {
+    display: none !important;
   }
 
   .carta-imprimible,
