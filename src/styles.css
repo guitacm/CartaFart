@@ -223,6 +223,14 @@ button {
     display: none !important;
   }
 
+   .preview-mode {
+    all: unset;
+    width: 100%;
+    padding: 0;
+    background: white;
+    box-shadow: none;
+  }
+
   .carta-container {
     padding: 0;
     max-width: 100%;
@@ -233,12 +241,12 @@ button {
     break-inside:avoid;
   }
 
-  .carta-imprimible:last-of-type {
-    page-break-after: auto;
-  }
+  .carta-imprimible + .carta-imprimible {
+  page-break-before: always;
+}
 
   .columnes-carta {
-    display: flex;
+    display: block !important;
     gap: 2rem;
     break-inside: avoid;
   }
