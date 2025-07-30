@@ -11,7 +11,7 @@ const CartaPreview = ({ plats }) => {
   const categoriesCol1 = ['aperitius', 'clàssics', 'bocata fart'];
   const categoriesCol2 = ['suggeriments', 'from asia con love', 'rollitos', 'postres'];
   const categoriesCol3 = ['birra', 'begudes', 'cafes'];
-  const categoriesCol4 = ['vins copa'];
+  const categoriesCol4 = ['vins copa','vins negres', 'vins blancs', 'altres vins'];
 
   const renderCategories = (categories) =>
     categories
