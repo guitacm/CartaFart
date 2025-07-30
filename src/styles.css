@@ -230,9 +230,7 @@ button {
 
   .carta-imprimible {
     page-break-after: always;
-    width: 100%;
-    box-sizing: border-box;
-    padding: 1cm;
+    break-inside:avoid;
   }
 
   .carta-imprimible:last-of-type {
