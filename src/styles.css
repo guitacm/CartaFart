@@ -246,12 +246,13 @@ button {
     break-inside:avoid;
   }
 
-  .carta-imprimible + .carta-imprimible {
-  page-break-before: always;
-}
+  .carta-imprimible:last-of-type {
+    page-break-after: auto;
+  }
 
   .columnes-carta {
-    display: block !important;
+    display: flex !important;
+    flex-direction: row;
     gap: 2rem;
     break-inside: avoid;
   }
@@ -266,5 +267,8 @@ button {
     max-width: 200px;
     margin: 0 auto 1rem;
     display: block;
+    break-inside: avoid;
+    page-break-inside: avoid;
+    page-break-after: avoid;
   }
 }
