@@ -227,9 +227,9 @@ button {
 
   .carta-imprimible {
     page-break-after: always;
-width: 100%;
-overflow: visible;
-box-sizing: border-box;
+    width: 100%;
+    overflow: visible;
+    box-sizing: border-box;
     page-break-inside: avoid;
     break-inside: avoid;
   }
