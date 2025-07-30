@@ -230,7 +230,11 @@ button {
   font-family: 'Montserrat', sans-serif;
   display: block;
   }
-
+  
+  .no-print {
+    display: none !important;
+  }
+  
   .no-print-preview {
     box-shadow: none;
     margin: 0;
