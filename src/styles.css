@@ -239,6 +239,11 @@ button {
     break-inside: avoid;
   }
 
+  .carta-imprimible:last-of-type {
+    page-break-after: auto;
+  }
+  
+
   @page {
     size: A4 portrait;
     margin: 1cm;
