@@ -8,9 +8,10 @@ const CartaPreview = ({ plats }) => {
     return acc;
   }, {});
 
-  // Ordre fix per cada columna
-  const categoriesCol1 = ['aperitius', 'clàssics', 'bocata fart', 'from asia con love', 'rollitos', 'postres'];
-  const categoriesCol2 = ['suggeriments', 'birra', 'begudes', 'vins copa', 'cafes'];
+  const categoriesCol1 = ['aperitius', 'clàssics', 'bocata fart'];
+  const categoriesCol2 = ['suggeriments', 'from asia con love', 'rollitos', 'postres'];
+  const categoriesCol3 = ['birra', 'begudes', 'cafes'];
+  const categoriesCol4 = ['vins copa'];
 
   const renderCategories = (categories) =>
     categories
@@ -22,7 +23,7 @@ const CartaPreview = ({ plats }) => {
             {platsPerCategoria[categoria].map((plat, index) => (
               <div className="plat" key={index}>
                 <div className="plat-nom">
-                  <strong>{plat.nom}</strong>
+                  {plat.nom}
                   {plat.descripcio && (
                     <div className="plat-descripcio">{plat.descripcio}</div>
                   )}
@@ -37,13 +38,25 @@ const CartaPreview = ({ plats }) => {
       ));
 
   return (
-    <div className="carta-imprimible preview-mode">
-      <img src="/logofart.jpg" alt="Logotip del restaurant" className="logo" />
-      <div className="columnes-carta">
-        <div className="columna">{renderCategories(categoriesCol1)}</div>
-        <div className="columna">{renderCategories(categoriesCol2)}</div>
+    <>
+      {/* PRIMERA PÀGINA */}
+      <div className="carta-imprimible preview-mode">
+        <img src="/logofart.jpg" alt="Logotip del restaurant" className="logo" />
+        <div className="columnes-carta">
+          <div className="columna">{renderCategories(categoriesCol1)}</div>
+          <div className="columna">{renderCategories(categoriesCol2)}</div>
+        </div>
       </div>
-    </div>
+
+      {/* SEGONA PÀGINA */}
+      <div className="carta-imprimible preview-mode page-break">
+        <img src="/logofart.jpg" alt="Logotip del restaurant" className="logo" />
+        <div className="columnes-carta">
+          <div className="columna">{renderCategories(categoriesCol3)}</div>
+          <div className="columna">{renderCategories(categoriesCol4)}</div>
+        </div>
+      </div>
+    </>
   );
 };
 
