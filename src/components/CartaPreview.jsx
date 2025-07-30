@@ -49,7 +49,7 @@ const CartaPreview = ({ plats }) => {
       </div>
 
       {/* SEGONA PÀGINA */}
-      <div className="carta-imprimible preview-mode page-break">
+      <div className="carta-imprimible preview-mode">
         <img src="/logofart.jpg" alt="Logotip del restaurant" className="logo" />
         <div className="columnes-carta">
           <div className="columna">{renderCategories(categoriesCol3)}</div>
