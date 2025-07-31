@@ -6,6 +6,7 @@ const categoriesDisponibles = [
   'bocata fart',
   'from asia con love',
   'rollitos',
+  'nomes migdia',
   'suggeriments',
   'postres',
   'birra',
