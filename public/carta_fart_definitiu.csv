@@ -1,45 +1,44 @@
 Categoria,Nom,Descripcio,Preu,Visible
 aperitius,Gildes,,2.00,sí
-aperitius,Olives,,4.00,sí
-aperitius,Formatge,,4.00,sí
-aperitius,Xoriço sidra,,4.00,sí
-aperitius,Panxeta,,4.00,sí
-clàssics,Patates braves,,6.00,sí
+aperitius,Olives Yeyé,,4.00,sí
+aperitius,Formatge ovella curat i pa amb tomata,,4.00,sí
+aperitius,Xoriço sidra d'Astúries,,4.00,sí
+aperitius,Panxeta de l'Adela,,4.00,sí
+clàssics,Patates braves amb salsa Fart,,6.00,sí
 clàssics,Truita patates amb pa tomata,,6.00,sí
-clàssics,Croqueta Fart de pollastre (6 ud),,9.00,no
+clàssics,Croqueta Fart (5 un.),,9.00,no
 clàssics,Ensaladilla fúcsia,,6.00,sí
-clàssics,Torreznos de Cantabria,,NaN,no
 clàssics,Gazpacho clàssic,,5.00,sí
-clàssics,Gazpacho meló,,5.00,sí
-clàssics,Salmorejo,,5.00,sí
-clàssics,Crema freda de pèsols,,5.00,sí
-clàssics,Sopa freda remolatxa,,5.00,sí
-clàssics,Mandonguilles Fart (3 un),,7.00,sí
-bocata fart,Hamburguesa Fart Angus,"Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",9.00,sí
+clàssics,Gazpacho meló,,5.00,no
+clàssics,Salmorejo,,5.00,no
+clàssics,Crema freda de pèsols,,5.00,no
+clàssics,Sopa freda remolatxa,,5.00,no
+clàssics,Mandonguilles Fart (3 un.),,7.00,no
+bocata fart,Hamburguesa Fart Angus,"Formatge, ceba, cogombre, tomata, panxeta, i la nostra salsa",9.00,sí
 bocata fart,Croissant planxat,"Formatge de cabra, poma caramelitzada i nous",7.00,sí
 bocata fart,Falafel amb salsa d'encurtits,,NaN,no
-bocata fart,Planxat de buti amb la nostra salsa,,8.00,sí
+bocata fart,Planxat de buti,"Pebrot verd, 4 formatges, cogombre, ceba",8.00,sí
 bocata fart,Planxat de pollastre amb brie,,NaN,no
 rollitos,"Porc rostit amb formatge, bacon i ceba",,NaN,no
 rollitos,4 Formatges amb ceba i melmelada,,NaN,no
-from asia con love,Wanton porc i gambes,,5.00,sí
-from asia con love,Brocheta satay (4 unitats),,4.00,sí
-from asia con love,Dahi Puri,"Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",7.00,sí
-from asia con love,Brocheta teriyaki (2 unitats),,NaN,no
-from asia con love,"Cruixent de pollastre, verdures, arròs i salsa curry","Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",Nan,no
-from asia con love,"Pollastre amb cacahuets, verdures, arròs i salsa curry",,Nan,sí
-from asia con love,Arròs Fart,"Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",NaN,no
+from asia con love,Wanton porc i gambes,,5.00,no
+from asia con love,Brocheta satay (2 un.),,4.00,sí
+from asia con love,Dahi Puri,,7.00,sí
+from asia con love,Brocheta teriyaki (2 un.),,NaN,no
+from asia con love,"Cruixent de pollastre, verdures, arròs i salsa Fart",,Nan,no
+from asia con love,"Pollastre amb cacahuets, verdures, arròs i salsa curry",,Nan,no
+from asia con love,Arròs Pekín Express,"Saltejat amb pollastre amb verdures estil xinès",NaN,no
 suggeriments,Camembert Fart,,NaN,no
-postres,Pastís de formatge amb gerds d'Enviny,,5.00,sí
-postres,Got de lemon curd,,NaN,no
+postres,Pastís de formatge amb gerds d'Enviny,,5.00,no
+postres,Got de lemon curd,,NaN,sí
 postres,Got de quatre xocolates,,NaN,no
-postres,Postre Fart,"Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",4.00,sí
-postres,Brownie,,NaN,no
+postres,Postre Fart,"Pa de pessic amb gelat desfet i melmelada",4.00,sí
+postres,Brownie,,NaN,sí
 begudes,Vermouth negre El Tafaner,,2.50,sí
 begudes,Aigua Cabreiroa 50 cl,,1.50,sí
 begudes,Aquarius llimona 33 cl,,2.00,sí
 begudes,Nestea llimona 33 cl,,2.00,sí
-begudes,Auara Pinya o Mango 20 cl,,2.00,sí
+begudes,Auara 20 cl,"Pinya, mango, prèssec, ACE o taronja",2.00,sí
 begudes,Bitter Kas 20 cl,,2.00,sí
 begudes,Vichy Catalàn 30 cl,,2.00,sí
 begudes,CocaCola Original 237 ml,,2.00,sí
@@ -53,7 +52,7 @@ birra,Lupia 33 cl,,2.00,sí
 birra,B-Lemon 33 cl,,2.00,sí
 birra,Cervesa barril Estrella Galicia,,2.00,sí
 birra,Barril 1906,,2.50,sí
-vins copa,Copa Vi,,3.00,sí
+vins copa,Copa Vi,,3.20,sí
 vins negres,Abid,Montsant,16.00, sí
 vins negres,La Picossa,Terra Alta,17.00, sí
 vins negres,El Destraler,Terra Alta,13.00, sí
